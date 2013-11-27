@@ -6,7 +6,7 @@ public class Move : MonoBehaviour {
 	public Animator anim;
 	public float speed;
 	public string axisName = "Horizontal";
-	private float evolutionSickness = 2.0f;
+	public float evolutionSickness = 0.0f;
 
 	// Use this for initialization
 	void Start () {

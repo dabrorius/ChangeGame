@@ -46,11 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AutoDestroy.cs" />
      <Compile Include="Assets\Eatable.cs" />
      <Compile Include="Assets\Evolve.cs" />
      <Compile Include="Assets\EyeFactory.cs" />
+     <Compile Include="Assets\Fader.cs" />
      <Compile Include="Assets\Fly.cs" />
      <Compile Include="Assets\Jump.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\Move.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

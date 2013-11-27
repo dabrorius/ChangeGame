@@ -38,11 +38,14 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
+'Assets/AutoDestroy.cs'
 'Assets/Eatable.cs'
 'Assets/Evolve.cs'
 'Assets/EyeFactory.cs'
+'Assets/Fader.cs'
 'Assets/Fly.cs'
 'Assets/Jump.cs'
+'Assets/MainMenu.cs'
 'Assets/Move.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
