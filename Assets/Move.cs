@@ -24,7 +24,13 @@ public class Move : MonoBehaviour {
 		rigidbody2D.velocity = new Vector2( Input.GetAxis(axisName) * speed, rigidbody2D.velocity.y );
 		anim.SetFloat("Speed",  Mathf.Abs(Input.GetAxis(axisName)) ); 
 
-		if( Input.GetAxis(axisName) < 0 ) { transform.localScale = new Vector2(-1,1); } 
-		if( Input.GetAxis(axisName) > 0 ) { transform.localScale = new Vector2(1,1); }
+		if( Input.GetAxis(axisName) < 0 ) { 
+			transform.localScale = new Vector2(-1,1); 
+			//transform.Translate(Vector2.right * -speed * Time.deltaTime);
+		} 
+		if( Input.GetAxis(axisName) > 0 ) { 
+			transform.localScale = new Vector2(1,1); 
+			//transform.Translate(Vector2.right * speed * Time.deltaTime);
+		}
 	}
 }

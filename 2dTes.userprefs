@@ -1,5 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EndScreen.cs">
     <Files>
       <File FileName="Assets/Evolve.cs" Line="6" Column="1" />
@@ -9,10 +9,11 @@
       <File FileName="Assets/Eatable.cs" Line="1" Column="1" />
       <File FileName="Assets/EyeFactory.cs" Line="1" Column="1" />
       <File FileName="Assets/AutoDestroy.cs" Line="1" Column="1" />
-      <File FileName="Assets/Fader.cs" Line="6" Column="1" />
-      <File FileName="Assets/MainMenu.cs" Line="19" Column="25" />
-      <File FileName="Assets/LevelFader.cs" Line="20" Column="35" />
-      <File FileName="Assets/EndScreen.cs" Line="31" Column="37" />
+      <File FileName="Assets/Fader.cs" Line="1" Column="1" />
+      <File FileName="Assets/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/LevelFader.cs" Line="1" Column="1" />
+      <File FileName="Assets/EndScreen.cs" Line="10" Column="35" />
+      <File FileName="Assets/CreateEndScreen.cs" Line="9" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
